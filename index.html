@@ -3,24 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>XAUUSD Trading Signals</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+        }
+
+        header {
+            background: #1f2937;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #1f2937;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+        .signal {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .waiting {
+            color: #facc15;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .info-box {
+            background: #374151;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #9ca3af;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>XAUUSD Trading Signals</h1>
+<header>
+    <h1>📊 XAUUSD Trading Signals</h1>
+    <p>Rule-Based Market Analysis</p>
+</header>
 
-    <p>Gold (XAUUSD) signal dashboard</p>
+<div class="container">
 
-    <hr>
+    <div class="card">
+        <h2>Current Signal</h2>
 
-    <h2>Current Signal</h2>
+        <div class="signal waiting" id="signal">
+            WAITING
+        </div>
 
-    <p id="signal">WAITING FOR ANALYSIS...</p>
+        <p style="text-align:center;">
+            Waiting for market analysis...
+        </p>
+    </div>
 
-    <h2>Market Information</h2>
+    <div class="card">
 
-    <p>Symbol: XAUUSD</p>
-    <p>Strategy: Rule-Based Analysis</p>
+        <h2>Market Information</h2>
+
+        <div class="info">
+
+            <div class="info-box">
+                <strong>Symbol</strong>
+                <p>XAUUSD</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Timeframe</strong>
+                <p>15 Minutes</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Strategy</strong>
+                <p>Rule-Based</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Status</strong>
+                <p>Analyzing</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Trade Levels</h2>
+
+        <div class="info">
+
+            <div class="info-box">
+                <strong>Entry</strong>
+                <p>---</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Stop Loss</strong>
+                <p>---</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Take Profit</strong>
+                <p>---</p>
+            </div>
+
+            <div class="info-box">
+                <strong>Risk/Reward</strong>
+                <p>---</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    XAUUSD Trading Signals © 2026
+</footer>
 
 </body>
 </html>
